@@ -174,11 +174,7 @@
                 <version>9.2.3.v20140905</version>
             </plugin>
 		
-	 <plugin>
-            <groupId>com.atlassian.maven.plugins</groupId>
-            <artifactId>maven-clover2-plugin</artifactId>
-            <version>${clover.version}</version>
-        </plugin>	
+		
 			
 						<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
