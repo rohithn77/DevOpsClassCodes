@@ -173,8 +173,6 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.2.3.v20140905</version>
             </plugin>
-		
-		
 			
 						<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
