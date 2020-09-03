@@ -20,8 +20,9 @@ pipeline {
 			steps {
 	
                 sh "docker login -u rohithbhardwaj -p Password@123"
+		sh 'docker push rohithbhardwaj/devops'
 				}
-				sh 'docker push rohithbhardwaj/devops'
+				
 			
         }
         stage('Deploy to K8s') {
